@@ -20,20 +20,23 @@
 
   <body>
     <div id="title">
-    <div id="header"></div>
+      <div id="logo"></div>
+      <div id="header"></div>
     </div>
 
     <div id="narration">
-    <div id = "contents">
-    <div id = "top">
-    </div>
-    </div>
+      <div id = "contents">
+        <div id = "top"></div>
+      </div>
     </div>
 
-  <script type ="text/javascript">
-  //Creating map element
-    var map = L.map ('map', {centre: [0,0], zoom:12});
-  </script>
+    <div class="loader">Loading...</div>
+    <div id = "map"></div>
+
+    <script type ="text/javascript">
+      //Creating map element
+      var map = L.map ('map', {centre: [0,0], zoom:12});
+    </script>
 
     <script type = "text/javascript" src = "google-doc-url.js"></script>
     <script type = "text/javascript" src = "js/tabletop.js"></script>
