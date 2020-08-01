@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>
-    </title>
+  <html>
+
+  <head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content="initial-scale=1, maximum-scale=1, user-scale=1, user-scalable=no">
+
+    <title>
+      My First Story Map
+  </title>
+
+    <!--Importing leaflet css and js files-->
+    <link rel ="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css">
+    <script scr = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"></script>
+
+    <!--Importing jQuery-->
+    <script scr ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 
-<body>
+  <body>
+    <div id="title">
+    <div id="header"></div>
+    </div>
 
-  </body>
-  
+    <div id="narration">
+    <div id = "contents">
+    <div id = "top">
+    </div>
+    </div>
+    </div>
+
+    <script type ="text/javascript">
+    //Creating map element
+    var map = L.map ('map', centre{[0,0], zoom:12});
+    </script>
+
+    <script type = "text/javascript" scr = "google-doc-url.js"></script>
+    <script type = "text/javascript" scr = "js/tabletop.js"></script>
+    <script type = "text/javascript" scr = "js/leaflet-providers.js"></script>
+    <script type = "text/javascript" scr = "js/leaflet.extra-markers.min.js"></script>
+    <script type = "text/javascript" scr = "js/constants.js"></script>
+    <script type = "text/javascript" scr = "js/jquery.csv.js"></script>
+    <script type = "text/javascript" scr = "js/storymap.js"></script>
+
+    </body>
 </html>
